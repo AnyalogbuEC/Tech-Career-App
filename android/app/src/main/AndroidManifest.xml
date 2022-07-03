@@ -2,7 +2,7 @@
     package="com.example.tech_career_app">
 
     <application
-        android:label="Tech Career App"
+        android:label="Tech Career Guidance"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
