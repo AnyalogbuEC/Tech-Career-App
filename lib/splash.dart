@@ -33,9 +33,13 @@ class _SplashState extends State<Splash> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: const [
-            Icon(
-              CustomIcons.tech_writing,
-              size: 55,
+            // Icon(
+            //   CustomIcons.tech_writing,
+            //   size: 55,
+            // ),
+            CircleAvatar(
+              backgroundImage: AssetImage("assets/image/launcher_icon.png"),
+              radius: 55,
             ),
             SizedBox(
               height: 25,
