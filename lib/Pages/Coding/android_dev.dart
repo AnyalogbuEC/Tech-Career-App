@@ -154,6 +154,16 @@ class _AndroidDevState extends State<AndroidDev> {
               const SizedBox(
                 height: 35,
               ),
+              const Text(
+                "Overview/Introductory Video",
+                style: TextStyle(
+                  fontSize: 25,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              const SizedBox(
+                height: 15,
+              ),
               YoutubePlayer(
                 controller: controller,
               ),

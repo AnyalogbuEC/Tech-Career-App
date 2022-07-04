@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:tech_career_app/assets/customIcons.dart';
 import 'package:tech_career_app/main.dart';
 
 class Splash extends StatefulWidget {
@@ -20,7 +19,7 @@ class _SplashState extends State<Splash> {
     await Future.delayed(
       const Duration(milliseconds: 3000),
     );
-        () {};
+    () {};
     Navigator.pushReplacement(
         context, MaterialPageRoute(builder: (context) => const MyHomePage()));
   }
@@ -33,10 +32,6 @@ class _SplashState extends State<Splash> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: const [
-            // Icon(
-            //   CustomIcons.tech_writing,
-            //   size: 55,
-            // ),
             CircleAvatar(
               backgroundImage: AssetImage("assets/image/launcher_icon.png"),
               radius: 55,

@@ -13,8 +13,8 @@ class _ITManagementState extends State<ITManagement> {
   Widget build(BuildContext context) {
     YoutubePlayerController controller = YoutubePlayerController(
       initialVideoId:
-      YoutubePlayer.convertUrlToId("https://youtu.be/46xb1eOo774")
-          .toString(),
+          YoutubePlayer.convertUrlToId("https://youtu.be/46xb1eOo774")
+              .toString(),
       flags: const YoutubePlayerFlags(
         autoPlay: false,
         mute: false,
@@ -208,6 +208,16 @@ class _ITManagementState extends State<ITManagement> {
               ),
               const SizedBox(
                 height: 35,
+              ),
+              const Text(
+                "Overview/Introductory Video",
+                style: TextStyle(
+                  fontSize: 25,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              const SizedBox(
+                height: 15,
               ),
               YoutubePlayer(
                 controller: controller,
