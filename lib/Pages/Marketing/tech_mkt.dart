@@ -219,7 +219,7 @@ class _TechMktState extends State<TechMkt> {
                 height: 25,
               ),
               const Text(
-                "Job outlook for digital marketers",
+                "Job outlook for technical marketers",
                 style: TextStyle(
                   fontSize: 25,
                   fontWeight: FontWeight.bold,
